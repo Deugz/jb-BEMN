@@ -1,0 +1,867 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evolution et Biodiversité &#8212; BEMN</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/.ipynb_checkpoints/Cube-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/.ipynb_checkpoints/CV_1-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/coffee_cup.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/Cube.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom_style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/CV_1.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/kittons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/style_wheel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/kittons-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_business_canvas-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "https://github.com/Deugz/jb-BEMN");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script src="../_static/assets/script/kittons.js"></script>
+    <script src="../_static/assets/script/scriptvideo.js"></script>
+    <script src="../_static/assets/script/script_flipping_card.js"></script>
+    <script src="../_static/assets/script/script_wheel.js"></script>
+    <script src="../_static/assets/script/slideshow.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/kittons-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/scriptvideo-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/script_blob-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/script_flipping_card-checkpoint.js"></script>
+    <script src="../_static/assets/script/.ipynb_checkpoints/slideshow-checkpoint.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Introduction/Evolution-Biodiversité';</script>
+    <link rel="canonical" href="https://deugz.github.io/jb-BEMN/_build/html/Introduction/Evolution-Biodiversité.html" />
+    <link rel="shortcut icon" href="../_static/Pharma-Logo.svg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Introduction" href="../Mycologie/Myco-intro.html" />
+    <link rel="prev" title="To include" href="../to-include.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/Pharma-Logo.svg" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/Pharma-Logo.svg" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/sp-Uni-Pharma/build/html/index.html" title="Home" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-house"></i></span>
+            <label class="sr-only">Home</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-profile/_build/html/intro.html" title="Profile" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-user"></i></span>
+            <label class="sr-only">Profile</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/ab-blog/_website/index.html" title="Blog" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-blog"></i></span>
+            <label class="sr-only">Blog</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-tools/_build/html/intro.html" title="Tools" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <label class="sr-only">Tools</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io" title="Forum" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-comments"></i></span>
+            <label class="sr-only">Forum</label></a>
+        </li>
+</ul></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../to-include.html">To include</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Evolution et Biodiversité</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Mycologie</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Mycologie/Myco-intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Mycologie/Reproduction-myco.html">Reproduction</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Introduction/Evolution-Biodiversité.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Evolution et Biodiversité</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-apparition-de-la-vie">L’apparition de la vie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mots-cles">Mots-Clés</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approche-systemique">Approche systémique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-evolution-du-big-bang-a-l-anthropocene">L’évolution du Big-Bang a l’Anthropocène</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#energie">Energie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#place-de-l-homme-dans-les-echanges">Place de l’Homme dans les Echanges</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#biodiversite-et-fonctionnement-des-ecocystemes">Biodiversité et fonctionnement des écocystèmes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#biodiversite">Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tissu-vivant">Le Tissu Vivant</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-coevolution">La Coévolution</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-du-pigeon">Exemple du pigeon</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-de-pollinisation">Exemple de pollinisation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-de-la-savane">Exemple de la savane</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d-ou-vient-la-biodiversite">D’ou vient la Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-5-extinctions-de-masse">Les 5 Extinctions de Masse</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-anthropocene-et-les-changements-globaux">L’Anthropocène et les Changements Globaux</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilisation-de-l-energie-fossile">Utilisation de l’Energie Fossile</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consequences">Conséquences</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#graphiques-quelques-exemples-entre-1750-et-2000">GRAPHIQUES : quelques exemples, entre 1750 et 2000.</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-resilience-d-un-ecocysteme">La résilience d’un écocystème</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#est-on-dans-une-6eme-crise-dextinction">Est-on dans une 6ème crise d’extinction?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notion-d-espece-et-de-biodiversite">Notion d’espèce et de Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-services-ecocystemiques">Les services écocystémiques</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="tex2jax_ignore mathjax_ignore section" id="evolution-et-biodiversite">
+<h1>Evolution et Biodiversité<a class="headerlink" href="#evolution-et-biodiversite" title="Permalink to this heading">#</a></h1>
+<hr class="docutils" />
+<p><em>Objectifs du cours</em> :</p>
+<ul class="simple">
+<li>Nous intéresser, nous éveiller</li>
+<li>Donner envie d’approfondir par nous même ces disciplines naturalistes</li>
+<li>Développer une intelligence naturaliste</li>
+</ul>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>L’Homme est de plus en plus déraciné, éloigné de l’Homme, il est un petit peu hors sol. Il est donc important de retrouver une vision systématique, une vision globale du monde dans lequel on est. Et ceci est possible par une approche pluridisciplinaire.</p>
+<div class="section" id="l-apparition-de-la-vie">
+<h3>L’apparition de la vie<a class="headerlink" href="#l-apparition-de-la-vie" title="Permalink to this heading">#</a></h3>
+<p>L’Univers est né il y a 13,7 milliards d’années. C’est à ce moment là que nous avons eu le Big Bang. La Terre, quant à elle, est apparue il y a 4,6 milliards d’années. Et la première cellule est apparue il y a à peu près 3,9 milliards d’années avec donc l’apparition de la vie. On estime qu’il y a actuellement 8,7 millions d’espèces sur Terre qui sont en interaction constante les unes avec les autres sur une Terre ronde qui évolue aussi constamment.</p>
+</div>
+<div class="section" id="mots-cles">
+<h3>Mots-Clés<a class="headerlink" href="#mots-cles" title="Permalink to this heading">#</a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Dynamique</label><div class="sd-tab-content docutils">
+lorsqu’on parle d’évolution, cette évolution provient d’un équilibre dynamique entre les espèces, les écosystèmes. Cet équilibre va se déplacer constamment mais sans retour à l’état initial. C’est donc le propre de cette évolution, qui n’est pas un équilibre statique.</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Tissu (du vivant)</label><div class="sd-tab-content docutils">
+on a discuté sur les écosystèmes, les relations entre les molécules etc. Ce sont mailles d’un tricot, entrelacées et très interdépendantes les unes des autres.</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Complexité</label><div class="sd-tab-content docutils">
+c’est avoir une vision systémique et globale, il ne faut donc pas avoir peur d’aller traiter ce sujet là complexe, même si on ne comprend pas tout. Et pour un scientifique il est très important d’avoir des grandes notions de cette complexité.</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Question</label><div class="sd-tab-content docutils">
+se poser des questions est le propre, une singularité de notre espèce car nous avons un gros cerveau. Mais on doit aussi se poser les vraies questions, avec le plus de rigueur et d’honnêteté possible. On a aussi le fait qu’il faut faire face aux problèmes, ne pas laisser attendre à d’autres, le fait de proposer des solutions..</div>
+</div>
+</div>
+</div>
+<div class="section" id="approche-systemique">
+<h2>Approche systémique<a class="headerlink" href="#approche-systemique" title="Permalink to this heading">#</a></h2>
+<p>Nous allons étudier la complexité du fonctionnement de la biosphère. Quand on parle de complexité, on y associe le mot incertitude et il faut accepter que l’on ne peut pas tout comprendre. L’incertitude est donc toujours associée à la complexité. Cette approche systémique, globale, est primordiale pour appréhender la complexité du fonctionnement de la biosphère. Il faut alterner entre la théorie (les concepts, les connaissances) et la pratique (l’apprentissage, l’expérience…).</p>
+<blockquote class="epigraph">
+<div><p>“Si nous ne changeons pas notre façon de penser, nous ne serons pas capables de résoudre les problèmes que nous créons avec nos modes actuels de pensée”</p>
+<br>
+<p><strong>Albert Einstein</strong></p>
+</div></blockquote>
+<p>Nous devons donc avoir une approche globale, pluridisciplinaire pour mieux comprendre l’évolution dans le temps. Il est impossible de comprendre l’évolution et de prédire le futur de l’humanité. Et pour le comprendre il faut avoir connaissance de ce qu’il s’est passé auparavant.</p>
+</div>
+<div class="section" id="l-evolution-du-big-bang-a-l-anthropocene">
+<h2>L’évolution du Big-Bang a l’Anthropocène<a class="headerlink" href="#l-evolution-du-big-bang-a-l-anthropocene" title="Permalink to this heading">#</a></h2>
+<p>Depuis le big bang, tout a évolué : les étoiles naissent et meurent, les animaux et les végétaux apparaissent et disparaissent, la Terre évoluera aussi peut-être un jour. Nous pouvons donc nous demander : qui conduit les lois de cette évolution et de ces mouvements? Nous allons donc essayer d’y réfléchir en prenant en exemple l’énergie.</p>
+<div class="section" id="energie">
+<h3>Energie<a class="headerlink" href="#energie" title="Permalink to this heading">#</a></h3>
+<p>L’énergie est l’invariant de l’évolution. Le Soleil rayonne, il émet sous forme lumineuse de l’énergie. Cette énergie est captée par les plantes qui vont la transformer en énergie chimique grâce à la photosynthèse. Il y a également une restitution de cette énergie sous forme de chaleur. Comprendre cet échange d’énergie, est la base des principales caractéristiques de la biosphère. C’est une structure dissipatrice d’énergie qui suit les lois de la thermodynamique. Lorsqu’on est dans un écosystème, il y a une économie, au sens premier du terme, qui est faite d’optimisation de ressources de recyclage, d’informations pour dissiper le plus durablement possible l’énergie qui a été produite, et avec un maximum d’efficacité.
+Les échanges d’énergie se font entre les espèces : c’est le propre de la chaîne alimentaire. Le producteur d’énergie (la plante) va être consommé par un herbivore qui accumule de l’énergie et qui se fait manger par un carnivore, avec ceci il y a aussi les relations entre les espèces et à la fin de la chaîne alimentaire, les décomposeurs qui ont un grand rôle à jouer car il assurent le recyclage de toute cette énergie, ainsi que de la matière.</p>
+</div>
+<div class="section" id="place-de-l-homme-dans-les-echanges">
+<h3>Place de l’Homme dans les Echanges<a class="headerlink" href="#place-de-l-homme-dans-les-echanges" title="Permalink to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<blockquote>
+<div>Sur le schéma représentant les différentes espèces, toutes les flèches (les échanges alimentaires) vont vers l’Homme, c‘est donc une vision anthropocentrique du monde. Ce schéma voulait sûrement montrer que l’Homme a une interdépendance très forte avec son environnement. Pourtant cette vision est très dangereuse : l’Homme, tel un trou noir, aspire toute la biosphère. Il faut donc changer de représentation.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="figure align-default" id="vision-antropocentre-capture">
+<a class="reference internal image-reference" href="../_images/vision-antropocentre-capture.png"><img alt="../_images/vision-antropocentre-capture.png" src="../_images/vision-antropocentre-capture.png" style="width: 100%;" /></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="biodiversite-et-fonctionnement-des-ecocystemes">
+<h2>Biodiversité et fonctionnement des écocystèmes<a class="headerlink" href="#biodiversite-et-fonctionnement-des-ecocystemes" title="Permalink to this heading">#</a></h2>
+<div class="section" id="biodiversite">
+<h3>Biodiversité<a class="headerlink" href="#biodiversite" title="Permalink to this heading">#</a></h3>
+<p>Le mot <strong>biodiversité</strong> est une contraction des termes diversité et biologique. Plusieurs définitions existent mais une définition institutionnelle a été établie lors de la Convention sur la biodiversité de Rio en 1992 :</p>
+<p class="emphase">“la biodiversité représente la variété et la variabilité des organismes vivants et des complexes écologiques dont ils font partie.”</p>
+<p>La biodiversité est l’ensemble des formes de vie sur Terre, c’est à dire la faune, la flore, les milieux naturels (écosystèmes), l’espèce humaine et toutes les relations établies entre
+elles. La biodiversité a de multiples composantes : on peut considérer la diversité d’un point de vue génétique (au sein d’une même espèce), la diversité des espèces, la diversité des fonctions écologiques, voire la diversité des conséquences de ces fonctions pour les systèmes écologiques. Quoi qu’il en soit, il faut bien avoir en tête cette multitude d’interactions. Et tout de suite percevoir que si un moindre changement vient affecter une population, une espèce, il y aura une répercussion sur les autres espèces avec lesquelles elle est en interaction, ainsi que sur l’ensemble du réseau. D’où le terme de tissu du vivant et d’écosystème planétaire. Vivre c’est interagir, on interagit entre organismes. L’évolution c’est aussi interagir avec l’environnement physique et chimique qui entoure le milieu de vie des êtres vivants. Et tout cela a fait que les réseaux trophiques se sont constitués et ce sont eux qui forment la trame vivante de nos écosystèmes, de la biosphère toute entière.</p>
+</div>
+<div class="section" id="le-tissu-vivant">
+<h3>Le Tissu Vivant<a class="headerlink" href="#le-tissu-vivant" title="Permalink to this heading">#</a></h3>
+<p>En général, on pense qu’un tissu est solide, seulement il peut se déchirer et se dégrader insidieusement. Par exemple, dans le livre de Robert Barbault Un éléphant dans un jeu de quilles, où la
+loutre de mer au niveau des côtes de l’Alaska tient le premier rôle. Dans les années 90, a été signalé un effondrement de la population des loutres de mer qui était protégée, et même florissante. Alors que s’est-il passé? Les loutres de mer se délectent des oursins, donc les scientifiques sont allés voir de ce côté-là mais les oursins pullulaient. Donc ce n’était pas le problème. Normalement les loutres de mer ne sont pas consommées par les orques, car ces derniers se nourrissent des phoques. Sauf que les phoques eux mangent du poisson, et ce poisson est surpêché par leur prédateur
+ultime, l’Homme. Comme il n’y avait presque plus de poisson, la population de phoque fut quasiment inexistante. Les orques ont donc trouvé une nouvelle source alimentaire : les loutres de mer. De plus, suite à la disparition des loutres de mer, beaucoup d’oursins prolifèrent et mangent allègrement les algues laminaires. Ces dernières étant très précieuses pour l’écosystème car permettent des modifications de divers poissons… Et ainsi, tous les écosystèmes (les mollusques, les crustacées..) abrités par ces algues ont aussi disparus.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<blockquote>
+<div>Cette biodiversité est donc un assemblage complexe d’espèces qui interagissent les unes
+avec les autres (pour la prédation, la compétition, la facilitation…).
+Nous voyons bien qu’il y a interdépendance entre ces espèces. Chaque espèce est un
+noeud, un point. Et les liens de communication entre les espèces sont les lignes qui unissent
+les noeuds.</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="figure align-default" id="tissu-vivant-capture">
+<a class="reference internal image-reference" href="../_images/Tissu-vivant-capture.png"><img alt="../_images/Tissu-vivant-capture.png" src="../_images/Tissu-vivant-capture.png" style="width: 100%;" /></a>
+</div>
+</div>
+</div>
+</div>
+<blockquote class="epigraph">
+<div><p>« Rien n’a de sens en biologie, si ce n’est à la lumière de l’évolution »</p>
+<br>
+<p><strong>Theodosius Dobzhansky</strong></p>
+</div></blockquote>
+<p>“A la lumière de” signifie que tout découle de l’évolution, en particulier la biodiversité. Cette biodiversité compte déjà 3,9 milliards d’années (apparition de la première cellule). Comprendre cette évolution consiste à déceler les mécanismes qui ont présidé à la structuration actuelle de la biodiversité. Cela a permis les multiples adaptations des animaux, des végétaux, des unicellulaires qui existent aujourd’hui.</p>
+<blockquote class="epigraph">
+<div><p>“Ce ne sont pas les espèces les plus intelligentes, ni les plus fortes qui survivent mais c’est l’espèce qui est la plus à même de s’adapter et de répondre aux changements environnementaux”
+<br></p>
+<p><strong>Charles Darwin</strong> (L’origine des espèces)</p>
+</div></blockquote>
+<p>Plus les descendants d’une espèce sont différents, plus ils ont des chances de réussir dans la lutte pour l’existence. Ce principe a été repris par Leigh van Valen avec l’hypothèse de la Reine Rouge.</p>
+</div>
+<div class="section" id="la-coevolution">
+<h3>La Coévolution<a class="headerlink" href="#la-coevolution" title="Permalink to this heading">#</a></h3>
+<p>La coévolution c’est l’évolution qui s’appuie sur la biodiversité et les interactions entre les espèces. Il se retrouve une analogie de l’hypothèse de la Reine Rouge dans le livre de Lewis Caroll (
+De l’autre côté du miroir), qui est la suite de Alice aux pays des merveilles où Alice dit : « Mais, Reine Rouge, c’est étrange, nous courons vite et le paysage autour de nous ne change pas ? » La reine répondit : « Nous courons pour rester à la même place.» Il s’agit d’une métaphore à la course aux armements entre les espèces. Si la sélection naturelle va favoriser les prédateurs les plus rapides, il va donc falloir que les proies soient elles aussi de plus en plus rapides si le rapport de force doit rester inchangé. Il y a donc un régime stationnaire entre les espèces, d’un point de vue rapport de force, il n’y a pas une espèce plus évoluée qu’une autre. Mais si jamais l’une des espèces ne peut plus s’adapter à l’autre, l’équilibre dynamique établi entre les deux espèces est rompu, entraînant la disparition d’une espèce. Cependant la disparition de cette espèce peut laisser la place pour l’apparition d’une nouvelle, c’est le phénomène d’<strong>autorégulation</strong>. On a donc une forme de coévolution antagoniste qui se produit. De cette façon, la théorie de la Reine Rouge est également surnommée : <em>le paradoxe de l’évolution</em>. La reproduction sexuée est un avantage certain pour une espèce qui a recours à ce mode de reproduction, puisque nous allons avoir une recombinaison des allèles et donc la possibilité de création de nouveaux êtres qui auront plus de chances de s’adapter dans un nouvel environnement.</p>
+<div class="section" id="exemple-du-pigeon">
+<h4>Exemple du pigeon<a class="headerlink" href="#exemple-du-pigeon" title="Permalink to this heading">#</a></h4>
+<p class="emphase">Pigeon vole ou pigeon court ?</p>
+<p>Pendant la saison des amours, les mâles font une parade en gonflant leurs ailes et leurs plumes. Des chercheurs se sont demandés comment la femelle choisissait son mâle, normalement le plus adapté à la reproduction pour la perduration de l’espèce. Les chercheurs ont alors chronométré le temps de parade des pigeons et se sont aperçus que les femelles ont une attirance pour les pigeons faisant les parades les plus longues. Par la suite, ils se sont aperçus que les mâles faisant les plus courtes parades étaient porteurs de parasites (poux qui se placent au niveau des barbules des plumes et les mangent). Or sans ces barbules les pigeons aux plumes abîmées ont plus rapidement froid, il doivent dépenser plus d’énergie, et ainsi font des parades plus courtes. De plus les parasites affaiblissent leur organisme. Ainsi, la durée de parade est un indicateur de la santé des pigeons mâles, et c’est une arme de sélection. Cela montre une longue coévolution qu’il y a eu entre le pigeon et le poux.</p>
+</div>
+<div class="section" id="exemple-de-pollinisation">
+<h4>Exemple de pollinisation<a class="headerlink" href="#exemple-de-pollinisation" title="Permalink to this heading">#</a></h4>
+<p>L’abeille va pouvoir polliniser en venant prélever le pollen sur les étamines de la fleur, et l’amener sur le pistil d’une autre fleur, cela permettant la reproduction des fleurs en question.
+Il s’agit là encore d’un exemple de coévolution extrêmement fort, qui nous montre l’utilité d’une approche multidisciplinaire.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Orchydés.</p>
+<p>Fleur ressemble aux insectes (visuellement + texture + de manière olphactives)</p>
+<ul class="last simple">
+<li>epigénétique</li>
+</ul>
+</div>
+</div>
+<div class="section" id="exemple-de-la-savane">
+<h4>Exemple de la savane<a class="headerlink" href="#exemple-de-la-savane" title="Permalink to this heading">#</a></h4>
+<p>Si on s’en va dans d’autres écosystèmes, dans des steppes de la savane. Il y a les herbivores, mangeurs d’herbes, de feuilles, chacun a sa strate de consommation. Puis les prédateurs qui ont différents types de chasse. Et enfin, ceux qui nettoient, les charognards. Il s’agit là encore de reflets des nombreuses interactions. Il y a aussi des interactions qui ont lieu sous terre, que l’on ne voit pas forcément, entre les plantes et les bactéries qui sont fixatrices d’azote. C’est le cas pour les légumineuses, les champignons… Il y a aussi des évolutions pas forcément toujours bénéfiques, on peut avoir des interactions entre les ravageurs (des pathogènes) et des plantes ou des animaux quelconques. Il y a donc une grande <strong>diversité de fonctions écologiques</strong> et ces dernières sont toujours liées à notre biodiversité, celle des interactions entre espèces. Pour lutter contre les ravageurs, l’Homme a recours à une utilisation massive de pesticides. Au fur et à mesure, les ravageurs, les champignons développent des résistances à ces substances. L’Homme doit alors trouver de nouveaux pesticides, plus puissants, pour lutter contres les ravageurs. C’est un jeu sans fin, une véritable course évolutive aux armements dont personne ne peut être vainqueur. Cependant il faut faire attention car l’Homme par son action peut induire un réel <strong>déséquilibre</strong>.</p>
+</div>
+</div>
+<div class="section" id="d-ou-vient-la-biodiversite">
+<h3>D’ou vient la Biodiversité<a class="headerlink" href="#d-ou-vient-la-biodiversite" title="Permalink to this heading">#</a></h3>
+<p>Il y a 3,9 milliards d’années, la première cellule, nommée LUCA, est apparue. Il a été démontré que LUCA est la première cellule au niveau cellulaire ainsi qu’au niveau fonctionnel puis ensuite en faisant de la transgénèse. Tous les êtres vivants ont la même formation génétique : l’ADN, ainsi que les mêmes mécanismes de transcription et de traduction. Ils partagent donc tous ces caractères. Ces liens de parenté sont représentés par un <strong>arbre de vie</strong> qui peut se retrouver sous de multiples formes.</p>
+<div class="figure align-default" id="arbre-de-vie">
+<a class="reference internal image-reference" href="../_images/Arbre-de-vie.png"><img alt="../_images/Arbre-de-vie.png" src="../_images/Arbre-de-vie.png" style="width: 100%;" /></a>
+</div>
+<p>Afin d’appréhender l’arrivée de l’Homme sur Terre par rapport à LUCA, il est nécessaire de faire une analogie avec une journée pour mieux nous rendre compte. L’arrivée de l’Homme correspond aux toutes dernières secondes de cette journée. L’Homme est donc une espèce extrêmement récente du point vue de l’évolution. Il essaye donc de comprendre tout ce qu’il s’est passé avant et comment cette diversité s’est constituée de manière progressive, pendant ce temps extrêmement long.
+Il y a environ 2 milliards d’années, les premiers organismes multicellulaires sont apparus. Il y a 500 millions d’années, a eu lieu une explosion de diversité avec la plupart des êtres vivants qui existent aujourd’hui. Au départ, les êtres vivants avaient une vie essentiellement marine, puis il y a 350 millions d’années, la vie terrestre s’est de plus en plus développée. A partir de ce moment-là, il y a eu <strong>5 grandes extinctions</strong>. La première lignée humaine est apparue il y a 7 millions d’années avec TOUMAI (find ref, date) qui est l’un des premiers hominidés. On peut dire que son apparition marque le temps du genre Homo. Ensuite, on a eu plusieurs apparitions d’Homo qui se sont toutes éteintes les unes après les autres. Une seule a perduré : c’est l’Homo Sapiens, qui est apparu il y a environ 150 000 ans. C’est donc une espèce jeune.</p>
+<p>Pour revenir de manière plus générale, les êtres vivants ayant un même ancêtre commun (LUCA) ont des liens de parenté très étroits et sont donc similaires sur plein de points. Quelques exemples :</p>
+<ul class="simple">
+<li>Une dépendance à l’énergie</li>
+<li>Des cellules constituées d’ADN (support de diversité) et de protéines</li>
+<li>Les vertébrés possèdent tous un squelette osseux.</li>
+</ul>
+<p>De cette unité (LUCA) on est donc allé vers la complexité, comme notamment les mammifères qui font partie des organismes les plus complexes. C’est le résultat de la sélection naturelle qui est un processus continu. Dans le langage courant on a tendance à dire qu’une espèce animale ou végétale s’adapte à l’environnement. L’utilisation du terme «s’adapte» est inapproprié car cela voudrait dire qu’il y a une notion d’intention derrière, or ce n’est pas le cas, c’est dû au hasard, à un instant. Si par chance, une mutation amène une nouvelle caractéristique favorable au nouvel environnement alors l’espèce portant la nouvelle mutation sera conservée. Une espèce mal adaptée disparaît. Il se produit donc un tri incessant qui est le moteur de la biodiversité, de la complexité de l’évolution. Cette compétition qui a lieu sans arrêt est donc le principal moteur de l’évolution. En portant ceci en regard de la théorie de l’évolution de Darwin et la théorie de l’évolution par sélection naturelle, on en vient à interpréter ce processus comme une stratégie qui fait de la vie le paradigme du développement durable. Sous cet angle de vision, l’évolution est basée sur les compétitions intra ainsi que inter espèces, mais aussi sur les mutations, recombinaisons et la sélection naturelle. Cependant, il est inadéquat de parler de « théorie d’évolution » car la vision actuelle de l’évolution biologique prend en compte un autre déterminant majeur : <strong>l’environnement physico-chimique</strong>. La synthèse moderne de l’évolution biologique se fait donc avec le jeu des hasards et des nécessités. L’hérédité et l’environnement font que l’on va avoir l’émergence de la diversité chez les êtres vivants.</p>
+</div>
+<div class="section" id="les-5-extinctions-de-masse">
+<h3>Les 5 Extinctions de Masse<a class="headerlink" href="#les-5-extinctions-de-masse" title="Permalink to this heading">#</a></h3>
+<p>L’évolution est donc un processus continu, ponctué par des crises. Il faut savoir que les espèces disparaissent naturellement, même en absence de crise. Une espèce existe entre 2 à 10 millions d’années en moyenne. Il existe de nombreuses raisons expliquant la disparition d’une espèce : manque d’adaptation à l’environnement, concurrence entre espèces. On parle d’extinction de bruit de fond. Depuis l’apparition de la vie, plus de 99,9% des espèces ont disparu. La biodiversité actuelle représente donc une très faible partie de la biodiversité qui a existé depuis 3,8 milliards d’années.
+Les paléontologues reconnaissent 5 grandes crises correspondant à des extinctions de masse qui ont eu lieu sur des temps relativement longs géologiquement parlant : de 300 000 à 2 millions d’années. La crise la plus dévastatrice a eu lieu il y 250 millions d’années où 96% des espèces présentes à ce moment-là ont disparu. Ces crises vont infléchir le cours de l’histoire du monde vivant puisqu’elles provoquent la disparition d’espèces qui vont libérer des niches vides qu’il va falloir occuper. On aura donc l’apparition de nouvelles espèces. Parmis ces crises, la cinquième crise, la plus célèbre, a eu lieu il y a 65 millions d’années (au Crétacé) où 76% des espèces dont les dinosaures ont disparu. Cela a entraîné un bouleversement des écosystèmes et cela a eu une influence considérable sur le déroulement de l’évolution du vivant : les mammifères ont pu se développer après la disparition des dinosaures en occupant les niches <a class="reference external" href="http://vides.La" rel="noopener noreferrer" target="_blank">vides.La</a> nature actuelle résulte donc essentiellement de cette période de diversification donc du début du Tertiaire. Les familles d’espèces connues aujourd’hui ont été constituées il y a 30 millions d’années.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Checker les différentes crises et créer un tab item avec chacune, leur cause, leur impact</p>
+</div>
+</div>
+</div>
+<div class="section" id="l-anthropocene-et-les-changements-globaux">
+<h2>L’Anthropocène et les Changements Globaux<a class="headerlink" href="#l-anthropocene-et-les-changements-globaux" title="Permalink to this heading">#</a></h2>
+<div class="section" id="utilisation-de-l-energie-fossile">
+<h3>Utilisation de l’Energie Fossile<a class="headerlink" href="#utilisation-de-l-energie-fossile" title="Permalink to this heading">#</a></h3>
+<p>Il y a 300 millions d’années, et sur plusieurs millions d’années, il y a eu beaucoup d’être vivants qui sont morts et qui en se dégradant ont créé les énergies fossiles (charbon, pétrole, gaz). Aujourd’hui, on utilise la combustion de ces énergies fossiles qui est l’inverse de la photosynthèse car cette réaction est rapide, violente, à haute température et dégage beaucoup d’énergie ainsi que du CO2, alors que la photosynthèse quant à elle est très lente et à très haut rendement.</p>
+</div>
+<div class="section" id="consequences">
+<h3>Conséquences<a class="headerlink" href="#consequences" title="Permalink to this heading">#</a></h3>
+<p>Selon les scientifiques, le déstockage brutal des énergies fossiles en quelques dizaines d’années, alors qu’elles avaient mis des millions d’années à s’accumuler, est responsable du
+changement climatique. Cette combustion a entraîné un dégagement de CO2, modifiant les taux des gaz à effet de serre dans l’atmosphère. Tout cela s’est véritablement accéléré vers la
+fin de la Seconde Guerre Mondiale. La combustion des hydrocarbures a néanmoins eu des conséquences très positives sur notre société et sur notre santé mais également de nombreuses répercussions défavorables sur l’environnement et les écosystèmes.</p>
+<blockquote class="epigraph">
+<div><p>« Le temps du monde fini commence »
+<br></p>
+<p><strong>Paul Valery</strong></p>
+</div></blockquote>
+<p>Cette citation traduit non pas la fin du monde mais la fin d’un monde que l’on pensait infini. À travers cette citation, on prend conscience des limites de notre monde, des ressources de la Terre. Cela montre qu’il est important de changer de vision, de concept, de paradigme. La biosphère n’évolue plus seulement au rythme du changement du climat mais beaucoup sous la pression des hommes (ex : combustion des énergies fossiles). L’Homme utilise et modifie à tel point l’environnement de la Terre que l’on parle d’une nouvelle ère : <strong>L’Anthropocène</strong> où l’Homme est devenu une force géologique. Avant on parlait l’Holocène, cette période géologique s’étendait sur les 10 000 dernières années. Les activités humaines (industrie, transport, agriculture) entraînent des changements planétaires avec souvent la libération de gaz carboniques.</p>
+<div class="section" id="graphiques-quelques-exemples-entre-1750-et-2000">
+<h4>GRAPHIQUES : quelques exemples, entre 1750 et 2000.<a class="headerlink" href="#graphiques-quelques-exemples-entre-1750-et-2000" title="Permalink to this heading">#</a></h4>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Pas de graphiques présents sur la ronéo</p>
+</div>
+</div>
+</div>
+<div class="section" id="la-resilience-d-un-ecocysteme">
+<h3>La résilience d’un écocystème<a class="headerlink" href="#la-resilience-d-un-ecocysteme" title="Permalink to this heading">#</a></h3>
+<p>Heureusement, dans la nature existe le phénomène de la résilience d’un écosystème: c’est la capacité d’une espèce ou d’un écosystème à récupérer un fonctionnement et/ou un développement normal après avoir subi un traumatisme mais ce n’est jamais un retour à l’état initial (sinon contraire à l’évolution). Cependant, on va quand même réussir à retrouver un retour à l’<a class="reference external" href="http://%C3%A9quilibre.Au" rel="noopener noreferrer" target="_blank">équilibre.Au</a> début, ce terme de résilience était utilisé en physique des métaux, puis beaucoup en psychologie. C’était un processus psychique qui permettait à certains de survivre alors qu’ils avaient vécu des moments traumatisants qu’ils surmontaient, alors que d’autres personnes n’arrivaient pas à s’en remettre. Pour comprendre la résilience il faut en explorer les mécanismes et aller évaluer son efficacité dans les domaines de l’<a class="reference external" href="http://%C3%A9cologie.Il" rel="noopener noreferrer" target="_blank">écologie.Il</a> y a beaucoup d’exploration scientifique pour essayer de comprendre ce phénomène. Par exemple, on étudie la vitesse du retour à l’équilibre, le seuil de dégradation, ce qui est réversible ou non, les capacités d’adaptation d’un écosystème, etc. L’objectif est d’essayer de prédire l’évolution des écosystèmes, l’état de la biosphère et d’organiser notre bien-être
+futur. La diversité des espèces et la subtilité des relations qui existent entre elles dans chaque écosystème sont la caractère propre d’un écosystème et de sa résilience. La diversité a donc un rôle d’assurance par rapport à toutes les perturbations environnementales. Il faut laisser à la nature sa capacité d’évolution. Le PFH (Prodigieux Facteur Humain) qui va catalyser et orienter ces échanges, il est le noeud majeur et le centre des problèmes actuels.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Checker PFH, c’est quoi ?</p>
+</div>
+<div class="section" id="est-on-dans-une-6eme-crise-dextinction">
+<h4>Est-on dans une 6ème crise d’extinction?<a class="headerlink" href="#est-on-dans-une-6eme-crise-dextinction" title="Permalink to this heading">#</a></h4>
+<p>Nous allons essayer de prédire ce qu’il va se passer dans les années futures mais il ne faut surtout pas faire de prédiction à court terme. La place de l’homme est ici un peu celle d’un éléphant dans un jeu de quilles. L’analogie peut être faite avec Scrat, dans l’Age de Glace, qui sent un premier craquement dans la banquise. Nous devons être très attentifs à tous les signes que l’on nous donne pour essayer de réagir et ne pas être sourd.</p>
+<blockquote class="epigraph">
+<div><p>“ Tout se joue maintenant, il faut réagir maintenant, car notre capacité de résilience est en train de s’amoindrir. ”
+<br></p>
+<p>** Gilles BOEUF**</p>
+</div></blockquote>
+<p>Aujourd’hui, en 3850 millions d’années, il y a 9 millions d’espèces estimées (donc 1,9 million recensées) mais il faut garder à l’esprit que la biodiversité n’est pas seulement le nombre d’espèces car elle prend aussi en compte les interactions entre elles.</p>
+</div>
+</div>
+<div class="section" id="notion-d-espece-et-de-biodiversite">
+<h3>Notion d’espèce et de Biodiversité<a class="headerlink" href="#notion-d-espece-et-de-biodiversite" title="Permalink to this heading">#</a></h3>
+<p><strong>Linné</strong>, au 18ème siècle, a recensé les espèces vivantes, montrant une très forte biodiversité dans les forêts tropicales. Dans le bassin amazonien, il a plus de 550 espèces d’oiseaux par km2. C’est plus que dans l’Europe entière. Au Brésil, il y a plus de 40 000 espèces d’orchidées, et en Guyane, plus de 1 200 espèces d’arbres. L’Amazonie n’est pas vraiment le poumon de la Terre, mais c’est une réserve de biodiversité indéniable et elle concourt à refroidir notre climat grâce à l’évapotranspiration des arbres. Les espèces qui prédominent actuellement en terme de biodiversité sont les insectes. Les scientifiques ont ainsi proposé par le passé 25 points chauds de biodiversité, qui sont aujourd’hui au nombre de 45 (<strong>Trouv er et créer une liste</strong>) . Ce sont les plus grands. Faire un inventaire, est plus simple quand les organismes sont grands (mammifères, oiseaux, reptiles…), mais dès qu’ils sont de petite taille cela est beaucoup plus difficile. Cela explique qu’il y a encore tant de choses à découvrir, notamment avec les micro-organismes. En effet, on estime le nombre d’espèces à 9 millions, or ce sont des valeurs basées sur des extrapolations car on ne connaît qu’une minorité d’espèces (environ 2 millions). Il est donc difficile de savoir si une espèce disparaît puisqu’on ne les connaît même pas toutes.Mais cela reste plus simple quand l’organisme est de grande taille (disparition du dodo). On ne peut donc pas documenter l’apparition d’une espèce car on ne connaît même pas toutes les espèces actuelles.Ce qui fait peur aujourd’hui, c’est que les taux d’extinction actuels sont 20 fois supérieurs à ceux d’avant. On arrive vers une extinction massive selon certains scénarios.</p>
+</div>
+<div class="section" id="les-services-ecocystemiques">
+<h3>Les services écocystémiques<a class="headerlink" href="#les-services-ecocystemiques" title="Permalink to this heading">#</a></h3>
+<p>Les services écosystémiques sont très importants pour l’Homme, ce sont des ressources, des services que la nature nous offre. Il y en a 3 grands types :</p>
+<ul class="simple">
+<li>D’<strong>approvisionnement</strong> : les ressources directement utilisées par les sociétés pour se nourrir (plantes, animaux…) ou pour construire des bâtiments (bois et autres matériaux, eau etc).</li>
+<li>De <strong>régulation</strong> : par exemple, la forêt est une source de biodiversité, mais qui permet aussi de réguler le climat. D’ailleurs, les villes essaient de replanter des arbres, car la température est 2 à 3°C plus haute qu’en campagne. Ces services régulent aussi l’étendue des maladies, les évènements liés à l’eau (si on a de la végétation, l’eau des crues sera ralentie).</li>
+<li><strong>Culturels</strong> : généralement, tout le monde se sent bien dans la nature, en randonnée, en faisant du ski ou du surf … mais pas sur une aire d’autoroute. Cela a donc des fins esthétiques, récréatives et spirituelles.</li>
+</ul>
+<p>De plus, la nature rend des services économiques énormes qui seraient impossibles à chiffrer. La pollinisation faite par les abeilles coûterait 150 milliards d’euros par an si elle devait être faite par l’Homme. Ces services écosystémiques sont évidemment liés au fonctionnement des écosystèmes. Ils peuvent être vus comme la transcription, la conséquence pour l’Homme du fonctionnement des écosystèmes. Notre évolution est donc tributaire de cette relation réciproque et de son interaction permanente avec des mécanismes écologiques.</p>
+<p class="emphase">La biodiversité nous offre des leçons de vie et nous rappelle à nos valeurs.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Introduction"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../to-include.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">To include</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Mycologie/Myco-intro.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-apparition-de-la-vie">L’apparition de la vie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mots-cles">Mots-Clés</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approche-systemique">Approche systémique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-evolution-du-big-bang-a-l-anthropocene">L’évolution du Big-Bang a l’Anthropocène</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#energie">Energie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#place-de-l-homme-dans-les-echanges">Place de l’Homme dans les Echanges</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#biodiversite-et-fonctionnement-des-ecocystemes">Biodiversité et fonctionnement des écocystèmes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#biodiversite">Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-tissu-vivant">Le Tissu Vivant</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-coevolution">La Coévolution</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-du-pigeon">Exemple du pigeon</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-de-pollinisation">Exemple de pollinisation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple-de-la-savane">Exemple de la savane</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d-ou-vient-la-biodiversite">D’ou vient la Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-5-extinctions-de-masse">Les 5 Extinctions de Masse</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-anthropocene-et-les-changements-globaux">L’Anthropocène et les Changements Globaux</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilisation-de-l-energie-fossile">Utilisation de l’Energie Fossile</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#consequences">Conséquences</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#graphiques-quelques-exemples-entre-1750-et-2000">GRAPHIQUES : quelques exemples, entre 1750 et 2000.</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-resilience-d-un-ecocysteme">La résilience d’un écocystème</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#est-on-dans-une-6eme-crise-dextinction">Est-on dans une 6ème crise d’extinction?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notion-d-espece-et-de-biodiversite">Notion d’espèce et de Biodiversité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-services-ecocystemiques">Les services écocystémiques</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <strong>Vincent Deguin</strong> (with ❤️)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
