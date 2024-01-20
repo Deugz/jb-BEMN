@@ -99,6 +99,28 @@ Créer une page pour chaque intervenant avec leur historique de contribution
 
 ## Boite a Outils
 
+### Leitner Box
+
+<div class="leitnerflashcard">
+<div class="leitnerfront">
+<p>Intro 1</p>
+</div>
+<div class="leitnerback">
+<p>rep 1</p>
+</div>
+</div>
+<div class="leitnerflashcard">
+<div class="leitnerfront">
+<p>Myco 1</p>
+</div>
+<div class="leitnerback">
+<p>rep 2</p>
+</div>
+</div>
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="_static/assets/script/script-leitner-box.js"></script>
+
+
 
 
 # Commentaires
