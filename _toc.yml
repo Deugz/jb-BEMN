@@ -10,7 +10,25 @@ parts:
   - caption: Introduction
     chapters:
     - file: Introduction/Evolution-Biodiversité
+    - file: Introduction/Ecologie-sante
   - caption: Mycologie
     chapters:
     - file: Mycologie/Myco-intro
     - file: Mycologie/Reproduction-myco
+    - file: Mycologie/Familles/Familles-Main
+      sections:
+      - file: Mycologie/Familles/Ascomycetes
+      - file: Mycologie/Familles/Zygomycetes      
+      - file: Mycologie/Familles/Basidiomycetes 
+    - file: Mycologie/Pathologies/Myco-Patho-Main
+  - caption: Végétaux
+    chapters:
+    - file: Végétaux/Intro-Végétaux
+    - file: Végétaux/Gymnospermes
+    - file: Végétaux/Angiospermes
+    - file: Végétaux/Monocotyledones
+  - caption: Zoologie
+    chapters:
+    - file: Zoologie/Zoo-Introduction
+    - file: Zoologie/Arthropodes
+    - file: Zoologie/Vertebres

@@ -26,6 +26,7 @@
 
 
 ^^^
+*Numéro*: 3-4
 *Date*: 08/09/20 <br>
 *Enseignant*: A. DESCENDIT <br>
 *N°ISBN*: 978-2-37366-078-4 <br>
@@ -86,27 +87,36 @@
 
 <br>
 
-<p class="emphase"> Pourquoi la mycologie en pharmacie ? </p>
+## La Mycologie
 
-Pour le grand public le pharmacien est censé connaître les champignons, les clients peuvent leur demander conseil ce qui entretient la relation avec eux.
-
-Il existe beaucoup de champignons toxiques comme :
-- les **macromycètes** : intoxication liées à certains champignons comme les mycétismes
-- les **micromycètes** : mycotoxicoses qui produisent des substances toxiques extrêmement dangereuses.
-
-Certains champignons sont pathogènes :
-- pour l’homme : mycoses humaines → mycologie médicale
-- pour les animaux : mycologie vétérinaire
-- pour les plantes : mycoses végétales
-Ces champignons pour les animaux et les plantes peuvent entraîner des pertes agricoles très importantes, et provoquer par la suite des mycotoxicoses pour la santé de l’homme. La phytopathologie, la phytopharmacie, les pesticides et facteurs de risque font parti d’un intérêt particulier pour les pharmaciens.
-La mycologie en pharmacie ce sont les applications industrielles de certains champignons microscopiques (micromycètes) : pour les biotechnologies par exemple (production d’antibiotiques, bioconversions, fermentations...).
-
-<p class="emphase"> Introduction à la mycologie </p>
 
 La mycologie c’est la science qui étudie les champignons. Ca vient du grec Mukes ou Mukos qui donne en français le terme “mycète” utilisé souvent comme suffixe pour nommer des classes de champignons (zygomycète, ascomycète, basidiomycète).
 En latin les champignons s’appellent fungus au singulier et fungi au pluriel. le règne des champignons se dit donc le règne des fungi (plus scientifique).
 En latin, Fungus vient de funus qui veut dire funérailles et ago qui veut dire produire = produire des funérailles ce qui fait allusion aux empoisonnements mortels.
 En français nous avons les terme fungique ou fongique et fongicide
+
+<p class="emphase"> Pourquoi la mycologie en pharmacie ? </p>
+
+Pour le grand public le pharmacien est censé connaître les champignons, les clients peuvent leur demander conseil et cela entretient une relation de confiance avec eux.
+
+Il existe beaucoup de champignons **toxiques** comme :
+- les **macromycètes** : intoxication liées à certains champignons comme les mycétismes
+- les **micromycètes** : mycotoxicoses qui produisent des substances toxiques extrêmement dangereuses.
+
+Certains champignons sont **pathogènes** :
+- pour l’homme : mycoses humaines → mycologie médicale
+- pour les animaux : mycologie vétérinaire
+- pour les plantes : mycoses végétales
+
+
+```{note}
+
+Quelle est la différence entre toxique et pathogène ?
+
+```
+
+Ces champignons pour les animaux et les plantes peuvent entraîner des pertes agricoles très importantes, et provoquer par la suite des mycotoxicoses pour la santé de l’homme. La phytopathologie, la phytopharmacie, les pesticides et facteurs de risque font parti d’un intérêt particulier pour les pharmaciens. La mycologie en pharmacie ce sont les **applications industrielles** de certains champignons microscopiques (micromycètes) : pour les biotechnologies par exemple (production d’antibiotiques, bioconversions, fermentations...).
+
 
 ##  Les champignons parmi les être vivants
 
@@ -114,17 +124,16 @@ En français nous avons les terme fungique ou fongique et fongicide
 
 <p class="emphase"> (1707 – 1778, 18e siècle…) </p>
 
-Selon Linné, il existe 2 règnes chez les êtres vivants : animaux et végétaux (les champignons étant inclus dans les végétaux). Il regroupait les champignons avec les algues dans un groupe appelé les **Thallophytes** (différent des Cormophytes)
-Un thalle est un appareil végétatif non différencié en racines, tiges et feuilles que l’on retrouve chez les champignons, les algues, le lichen, et la mousse.
+Selon Linné, il existe 2 règnes chez les êtres vivants : animaux et végétaux (les champignons étant inclus dans les végétaux). Il regroupait les champignons avec les algues dans un groupe appelé les **Thallophytes** (différent des Cormophytes). Un thalle est un appareil végétatif non différencié en racines, tiges et feuilles que l’on retrouve chez les champignons, les algues, le lichen, et la mousse.
 Cela est différent du cormus et donc des cormophytes qui possèdent tige, racine, feuille, … et en plus des vaisseaux conducteur de sels, tandis que dans le thalle les substances nutritives diffusent de cellule à cellule sans vaisseaux.
 Mais il y a des différences métaboliques très importantes :
-- Les Algues & Végétaux ont de la chlorophylle, ils font de la photosynthèse et sont donc **Autotrophes** (à l’aide de CO2 ils produisent du glucose).
+- Les Algues & Végétaux ont de la **chlorophylle**, ils font de la photosynthèse et sont donc **Autotrophes** (à l’aide de CO2 ils produisent du glucose).
 - Les Champignons n’ont pas de chlorophylle, ils sont donc **hétérotrophes**.
 Il y a donc nécessité d’une conception plus moderne pour classer les champignons.
 
 ```{note}
 
-**Linné**
+**Linné**: Est-ce qu'on se ferai pas plaisir avec une petite description de ce bon vieux Linnée ? 
 
 
 ```
@@ -133,9 +142,7 @@ Il y a donc nécessité d’une conception plus moderne pour classer les champ
 
 <p class="emphase"> (1969) : (moderne, largement admise) </p>
 
-Whittaker dit que les champignons sont un règne individualisé à part, situé entre les
-animaux et les végétaux. Les champignons sont des eucaryotes avec un mode de nutrition par absorption à la différence des plantes qui ont une assimilation photosynthétique et des animaux qui ont une assimilation par ingestion.
-Ils possèdent des cellules avec noyau(x), mitochondries, RE, Golgi, vacuoles (mais pas de chloroplastes!). Les champignons possèdent beaucoup de Chitine (polymère de N-acétylglucosamine) et leur sucre de réserve est le glycogène (il n’y a pas de cellulose ni d’amidon comme chez les végétaux).
+Whittaker dit que les champignons sont un règne individualisé à part, situé entre les animaux et les végétaux. Les champignons sont des eucaryotes avec un mode de nutrition par absorption à la différence des plantes qui ont une assimilation photosynthétique et des animaux qui ont une assimilation par ingestion. Ils possèdent des cellules avec noyau(x), mitochondries, RE, Golgi, vacuoles (mais pas de chloroplastes!). Les champignons possèdent beaucoup de Chitine (polymère de N-acétylglucosamine) et leur sucre de réserve est le glycogène (il n’y a pas de cellulose ni d’amidon comme chez les végétaux).
 
 ```{note}
 
@@ -152,8 +159,7 @@ Il propose 5 règnes chez les êtres vivants :
 
 **Les champignons sont entre les végétaux et les animaux**.
 
-En ce qui concerne la phylogénie (= d’où ça vient) des champignons il y a beaucoup 
-d’incertitudes car on a très peu de fossiles en paléotonlogie. Mais depuis l’avènement des techniques d’ADN on arrive à pister les parentés des champignons via des **études d’ADN**.
+En ce qui concerne la phylogénie (= d’où ça vient) des champignons il y a beaucoup d’incertitudes car on a très peu de fossiles en paléotonlogie. Mais depuis l’avènement des techniques d’ADN on arrive à pister les parentés des champignons via des **études d’ADN**.
 
 L’ancienne classification d'Ainsworth (± 1973) est basée sur une ancienne classification morphologique :
 
@@ -175,18 +181,10 @@ L’ancienne classification d'Ainsworth (± 1973) est basée sur une ancienne c
     - La subdivision des Basidiomycotina : très gros champignons (ex : Amanites, Bolets = Cèpes, Agarics...)
     
 Cette 1ère classification du règne des Fungi comprenait un certain nombre d'organismes qui, par la suite, ont été replacés dans d'autres règnes :
-
-Les **Oomycètes** et les Hyphochytridiomycètes sont maintenant classés dans les 
-Straménopiles.
-
-Les **Myxomycota** sont maintenant classés dans plusieurs groupes de protistes.
-
-Les **Chytridiomycota** ou **Chytridiomycètes** sont des espèces dont les spores portent un flagelle. On les considère comme les ancêtres de tous les autres champignons.
-
-Les **Deuteromycota** ou **Deuteromycètes** formaient le groupe des champignons imparfaits, il s’agissait de champignons que l'on ne connaissait que sous forme anamorphe ou asexuée, il est maintenant en général possible de rattacher chaque genre à diverses classes d'**Ascomycètes**.
-
-
-
+- Les **Oomycètes** et les Hyphochytridiomycètes sont maintenant classés dans les Straménopiles.
+- Les **Myxomycota** sont maintenant classés dans plusieurs groupes de protistes.
+- Les **Chytridiomycota** ou **Chytridiomycètes** sont des espèces dont les spores portent un flagelle. On les considère comme les ancêtres de tous les autres champignons.
+- Les **Deuteromycota** ou **Deuteromycètes** formaient le groupe des champignons imparfaits, il s’agissait de champignons que l'on ne connaissait que sous forme anamorphe ou asexuée, il est maintenant en général possible de rattacher chaque genre à diverses classes d'**Ascomycètes**.
 
 
 ### Classification phylogénétique moderne 
@@ -286,13 +284,13 @@ Cette systématique est complexe, en effet l’étude est très difficile car :
 - Nous n’avons pas de fossiles à disposition.
 - Les Cultures in vitro et fécondations expérimentales sont très difficiles pour certaines espèces ; en effet quelques champignons ne poussent que par symbiose avec des racines d’arbres particulières.
 
-On étudiera seulement quelques exemples dans 3 divisions du règne fongique : *Zygomycètes, Ascomycètes et Basidiomycètes*.
+On étudiera seulement quelques exemples dans 3 divisions du règne fongique : *[Zygomycètes](Familles/Zygomycetes.html), [Ascomycètes]() et [Basidiomycètes]()*.
 
 **Remarque** : heureusement qu’aujourd’hui nous avons les techniques de l'ADN pour pouvoir étudier plus simplement cette systématique complexe.
 On considère qu’il y a 120 000 espèces d’identifiées (70 000 visibles – 50 000 microscopiques). D’autre part certains auteurs estiment qu’il y aurait 1 million d’espèces dans le monde.
 
 
-###  Les « champignons » ne sont pas un groupe homogène…
+###   Pas un groupe homogène…
 
 Déjà par leur taille:
 
@@ -306,12 +304,11 @@ Trouver deux images libres de droit:
 Insérer les deux paragraphe en div 2
 ```
 
-Les champignons sont constitués par un **thalle**, c’est à dire un appareil végétatif non différencié en racines, tiges et feuilles et pas de vaisseaux conducteurs comme les Algues. (Rq: c’est pour cela qu’ils étaient anciennement appelés Thallophytes).
+Les champignons sont constitués par un **Thalle**, c’est à dire un appareil végétatif non différencié en racines, tiges et feuilles et pas de vaisseaux conducteurs comme les Algues. (Rq: c’est pour cela qu’ils étaient anciennement appelés Thallophytes).
 
 Mais ils ne possèdent **pas de Chlorophylle**, il ne réalisent donc **pas de photosynthèse** ce qui fait qu’ils sont **Hétérotrophes** (à la difference des Algues & Végétaux qui eux ont de la Chlorophylle, réalisent la Photosynthèse et sont appelés Autotrophes).
 
-Ce sont des **Eucaryotes** ils ont un noyau typique. Ils possèdent des Cellules avec un **nombre variable de noyau(x)** : 1, 2 (dicaryon) ou plus parfois. Les noyaux sont très petits : 2-3μm tandis que chez les plantes ils sont 10 fois supérieur. Le génome est aussi très petit : 10<sup>7</sup> pb (chez les bactéries c’est 10<sup>6</sup> pb, plantes ou animaux 10<sup>10</sup> pb). On a chez les champignons une persistance de l'enveloppe nucléaire durant la 
-mitose alors qu’on observe une disparition chez la majorité des eucaryotes.
+Ce sont des **Eucaryotes** ils ont un noyau typique. Ils possèdent des Cellules avec un **nombre variable de noyau(x)** : 1, 2 (dicaryon) ou plus parfois. Les noyaux sont très petits : 2-3μm tandis que chez les plantes ils sont 10 fois supérieur. Le génome est aussi très petit : 10<sup>7</sup> pb (chez les bactéries c’est 10<sup>6</sup> pb, plantes ou animaux 10<sup>10</sup> pb). On a chez les champignons une **persistance de l'enveloppe nucléaire durant la mitose** alors qu’on observe une disparition chez la majorité des eucaryotes.
 
 On peut avoir des champigons avec des noyaux de même génotype : thalles homocaryotiques ou des thalles avec des noyaux de génotypes différents : thalles hétérocaryotiques.
 

@@ -1,12 +1,69 @@
 # Evolution et Biodiversité
 
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+> **Objectifs du cours** :
+>
+> - Nous intéresser, nous éveiller
+> - Donner envie d’approfondir par nous même ces disciplines naturalistes
+> - Développer une intelligence naturaliste
+
+
+
+:::
+
+:::{grid-item-card}
+:columns: 4
+:link: ../_static/assets/pdf/Roneos/UE-PL2-6_BEMN/BEMN_1-2_02_09_20.pdf
+:class-header: bg-light
+
+**Roneo**
+
+
+^^^
+*Numéro*: 1-2
+*Date*: 02/09/20 <br>
+*Enseignant*: S. CLUZET  <br>
+*N°ISBN*: 978-2-37366-078-4 <br>
+
++++
+![flag alt >](../_static/Svg_icons/pdf-svgrepo-com.svg) BEMN_1-2_02_09_20
+:::
+
+::::
+
+<br>
+
+::::::{grid} 2
+
+:::::{grid-item}
+:columns: 6
+
+```{admonition} A Faire
+:class: warning, dropdown
+
+
+```
+
+:::::
+
+:::::{grid-item}
+:columns: 6
+
+```{admonition} Programme de révision
+:class: note, dropdown
+
+
+```
+
+:::::
+
+::::::
+
 ***
-
-*Objectifs du cours* :
-- Nous intéresser, nous éveiller
-- Donner envie d’approfondir par nous même ces disciplines naturalistes
-- Développer une intelligence naturaliste
-
 
 ## Introduction
 

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.leitnerflashcard').on('click', function() {
-    $(this).toggleClass('leitnerflipped');
+  $('.flashcard').on('click', function() {
+    $(this).toggleClass('flipped');
   });
 });
